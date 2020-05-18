@@ -1,7 +1,6 @@
-from abc import ABC
 
 
-class AbstractDairyProduct(ABC):
+class AbstractDairyProduct():
 
     def __init__(self, warranty_period_in_days=0, price_in_uah: float = 0, producer=None, producing_country=None,
                  fat_content_in_percentage=0):
@@ -10,3 +9,4 @@ class AbstractDairyProduct(ABC):
         self.producer = producer
         self.producing_country = producing_country
         self.fat_content_in_percentage = fat_content_in_percentage
+
