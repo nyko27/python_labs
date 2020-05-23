@@ -11,4 +11,4 @@ class IceCream(AbstractDairyProduct):
 
     def __str__(self):
         return f"{self.warranty_period_in_days}, {self.price_in_uah}, {self.producer}, {self.producing_country}," \
-               f"{self.fat_content_in_percentage}, {self.name_of_taste}, {self.weight_in_grams}"
+               f" {self.fat_content_in_percentage}, {self.name_of_taste}, {self.weight_in_grams}"
